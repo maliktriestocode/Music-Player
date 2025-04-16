@@ -42,6 +42,11 @@ const tracks = [
         title: "Destroy Lonely - NOSTYLIST",
         audio: "./audios/audio7.mp3",
         album: "./images/nostyles.jpeg"
+    },
+    {
+        title: "Destroy Lonely - Bane",
+        audio: "./audios/audio8.mp3",
+        album: "./images/bane.jpeg"
     }
     
     
