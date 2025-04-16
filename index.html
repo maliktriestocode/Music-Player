@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./play_alt-512.ico"/>
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <h1 id="title">Ken Carson - Lord Of Chaos</h1>
+            <img src="./images/morechaos.jpg" id="albumcover" class="album-art">
+            <div class="player-controls">
+                <audio id="audio1" src="./audios/audio1.mp3" autoplay></audio>
+                <div class="buttons">
+                    <i class="fa-solid fa-backward control-btn" id="back"></i>
+                    <i class="fa-solid fa-circle-play control-btn" id="play"></i>
+                    <i class="fa-solid fa-circle-pause control-btn" id="pause"></i>
+                    <i class="fa-solid fa-forward control-btn" id="skip"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
